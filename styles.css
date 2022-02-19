@@ -92,6 +92,142 @@
   }
   .upper-content{
       width: 83vw;
-      height: 20vh;
+      height: 16vh;
       
   }
+  .first-row{
+      display: flex;
+      margin-top: 25px;
+      margin-left: 40px;
+  }
+  .ipt{
+      border-radius: 15px;
+      background-color: #E5E7EB;
+      margin-left: 15px;
+      height: 25px;
+      width: 800px;
+      border: none;
+  }
+  .img-first-row{
+      width: 24px;
+      height: 24px;
+
+  }
+  .bell{
+      margin-left: 200px;
+  }
+  .sunglass-cat{
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      margin-left: 35px;
+      margin-top: -10px;
+  }
+  .name{
+      font-size: 20px;
+      font-weight: bold;
+      margin-left: 35px;
+  }
+  .second-cat-icon{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 30px;
+  }
+  .second-row{
+      display: flex;
+  }
+  .hi-text{
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+      margin-left: 25px;
+      height: 50%;
+  }
+  .hi-text .first{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .hi-text .second{
+    font-size: 32px;
+    font-weight: bold;
+    width: 800px;
+  }
+  .second-row .right-side{
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 40px;
+      height: 50%;
+  }
+  .right-side-button{
+      color:white;
+      background-color: #0EA5E9;
+      width: 90px;
+      height: 35px;
+      border-radius: 20px;
+      font-weight: bold;
+      border:none;
+
+  }
+  .below-content{
+      background-color: #E5E7EB;
+      width: 83vw;
+      height: 81.4vh;
+  }
+  .below-content-first-row{
+      
+      display: flex;
+        gap: 1000px;
+  }
+  .your-project, .annc{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 25px;
+  }
+  .your-project{
+      margin-left: 25px;
+  }
+
+  .below-item{
+      background-color: white;
+      border: none;
+      border-radius: 10px;
+      border-left: 8px solid #FBBF24;
+  }
+  .below-grid{
+      margin-top: 30px;
+      margin-left: 25px;
+      display: grid;
+      grid-template-columns: 530px 530px 300px;
+      grid-template-rows: repeat(3, 200px) 300px;
+      row-gap: 40px;
+      column-gap: 30px;
+      height: 73.5vh;
+  }
+  .annc-item{
+      height: 30vh;
+  }
+  .trend-item{
+      margin-top: 150px;
+      height: 30vh;
+  }
+  .trending{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: -50px;
+  }
+  .bold-text{
+      font-weight: bold;
+        font-size: 20px;
+        margin-top: 35px;
+        margin-left: 30px;
+  }
+  .light-text{
+      font-weight: lighter;
+      font-size: 17px;
+      margin-left: 30px;
+      margin-top: 10px;
+  }
+
