@@ -208,10 +208,12 @@
   }
   .annc-item{
       height: 30vh;
+      border: none;
   }
   .trend-item{
       margin-top: 150px;
       height: 30vh;
+      border: none;
   }
   .trending{
       font-size: 20px;
@@ -230,4 +232,68 @@
       margin-left: 30px;
       margin-top: 10px;
   }
+  .trending-content{
+      display: flex;
+      flex-direction: column;
+  }
+  .trending-content .item{
+      display: flex;
+      margin-top: 50px;
+      margin-left: 15px;
+      
+  }
+  .img-item{
+      border-radius: 70%;
+      width: 90px;
+      height: 90px;
+      margin-top: 15px;
+  }
+  .trending-content .item .text{
+      display: flex;
+      flex-direction: column;
+      margin: 0 0 0 15px;
+  }
+  .prof-tag{
+      color: black;
+      font-weight: bold;
+      font-size: 20px;
+  }
+  .comment{
+      color: black;
+      font-size: 15px;
+      font-weight: lighter;
+  }
+  
+  .item.cas{
+      
+      
+      margin-top: 15px;
+  }
+  .annc-content{
+      display: flex;
+      flex-direction: column;
+  }
+  .annc-content .item{
+      margin-left: 30px;
+      margin-top: 10px;
+      
+      width: 13vw;
+      height: 9vh;
+  }
+  .annc-content .item.notlast{
+      border-bottom: 2px solid #E5E7EB;
+  }
 
+  .text-annc{
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+  }
+  .text-annc .bold{
+      font-size: 20px;
+      font-weight: bold;
+  }
+  .text-annc .lighter{
+      font-size: 16px;
+      font-weight: lighter;
+  }
